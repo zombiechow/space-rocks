@@ -64,7 +64,7 @@ switch(room){
 			"FINAL SCORE: "+string(score)
 		);
 		draw_text(
-			450, 300,
+			480, 300,
 			">> PRESS ENTER TO RESTART <<"
 		);
 		draw_set_halign(fa_left); // set draw back to left align for further calls

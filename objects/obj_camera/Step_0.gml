@@ -19,7 +19,7 @@ if(room == rm_level01){
 		room_goto(rm_win);
 	}
 	
-	if(lives <= 0){
+	if(lives < 0){
 		room_goto(rm_gameover);
 	}
 }
