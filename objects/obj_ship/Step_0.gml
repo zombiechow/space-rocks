@@ -1,5 +1,5 @@
-/// @description keyboard controls
+/// @description controls
 // You can write your code in this editor
-// keyboard control
+
 keyboard_controls();
 mouse_controls();

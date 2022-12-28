@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Camera View
 // You can write your code in this editor
 #macro view view_camera[0]
 camera_set_view_size(view, view_width, view_height);

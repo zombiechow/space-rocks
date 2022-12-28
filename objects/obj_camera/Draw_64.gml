@@ -13,13 +13,13 @@ switch(room){
 			string_replace_all(@"Score 1K to win!
 			
 			Controls:
-			W: UP
+			W: THRUST FORWARD
 			A/D: LEFT/RIGHT
 			S: BACKUP
 			L/R CTRL: SHOOTS
 			
 			MOUSE:
-			SHIP POINTS AT CURSOR FOR AIMING!
+			RIGHT CLICK: THRUST SHIP TOWARDS CURSOR!
 			LEFT CLICK: SHOOT
 			
 			>> PRESS ENTER TO START <<", "\t", "")
