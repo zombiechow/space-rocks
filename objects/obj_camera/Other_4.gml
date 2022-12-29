@@ -4,6 +4,7 @@ view_enabled=true;
 view_visible[0]=true;
 
 if(room == rm_level01){
+	audio_play_sound(a_open, 2, true);
 	repeat(15){
 		var xx = choose(
 			irandom_range(0, room_width*0.3),
