@@ -46,6 +46,8 @@
     {"id":{"name":"spr_asteroid_large","path":"sprites/spr_asteroid_large/spr_asteroid_large.yy",},"order":3,},
     {"id":{"name":"s_stars_far","path":"sprites/s_stars_far/s_stars_far.yy",},"order":0,},
     {"id":{"name":"obj_laser","path":"objects/obj_laser/obj_laser.yy",},"order":3,},
+    {"id":{"name":"spawn_off_camera","path":"scripts/spawn_off_camera/spawn_off_camera.yy",},"order":9,},
+    {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},"order":9,},
     {"id":{"name":"spr_enemy_01","path":"sprites/spr_enemy_01/spr_enemy_01.yy",},"order":11,},
     {"id":{"name":"obj_ship","path":"objects/obj_ship/obj_ship.yy",},"order":0,},
     {"id":{"name":"obj_populsion","path":"objects/obj_populsion/obj_populsion.yy",},"order":4,},

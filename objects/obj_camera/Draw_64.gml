@@ -32,6 +32,12 @@ switch(room){
 	// You can write your code in this editor
 		draw_text(20, 20, "SCORE: "+string(score));
 		draw_text(20, 40, "LIVES: "+string(lives));
+		//draw_text(20,60, "room_width: "+string(room_width));
+		//draw_text(20,80, "room_height: "+string(room_height));
+		//draw_text(20,100, "cameraX: "+string(camera_get_view_x(view)));
+		//draw_text(20,120, "cameraY: "+string(camera_get_view_y(view)));
+		//draw_text(20,60, "view_width: "+string(global.cameraWidth));
+		//draw_text(20,80, "view_height: "+string(global.cameraHeight));
 	// display_set_gui_size(view_wport[0], view_hport[0]);
 		display_set_gui_size(view_width, view_height); //fed the view variables from Create script
 		break;
@@ -41,11 +47,11 @@ switch(room){
 		display_set_gui_size(view_width, view_height); // set view ratio to allow simpler placement and follow camera
 		draw_set_halign(fa_center); // center align text
 		draw_text_transformed_color(
-			480, 100, "YOU WON!",
+			480, 120, "YOU WON!",
 			3, 3, 0, c,c,c,c, 1
 		);
 		draw_text(
-			480, 150,
+			480, 250,
 			">> PRESS ENTER TO RESTART <<"
 		);
 		draw_set_halign(fa_left); // set draw back to left align for further calls
@@ -70,6 +76,3 @@ switch(room){
 		draw_set_halign(fa_left); // set draw back to left align for further calls
 		break;
 }
-
-
-
