@@ -34,7 +34,7 @@ if (_kthrust){
 			speed = max_speed;
 		}
 		// render the fire object in the "Effect" layer of the room on top of the sprite instance
-		var _offset = random_range(-5, 5);
+		var _offset = random_range(-2, 2);
 		var _length = -16;
 		var _x = x + lengthdir_x(_length, image_angle)  + _offset;
 		var _y = y + lengthdir_y(_length, image_angle) + _offset;

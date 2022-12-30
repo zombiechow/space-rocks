@@ -2,9 +2,11 @@
 // You can write your code in this editor
 view_enabled=true;
 view_visible[0]=true;
+//audio_play_sound(a_open, 1, true); // call audo file and loop
+// music doesn't start in html5 'till you click in the window
+room_music()
 
 if(room == rm_level01){
-	audio_play_sound(a_open, 2, true);
 	repeat(15){
 		var xx = choose(
 			irandom_range(0, room_width*0.3),
@@ -18,3 +20,4 @@ if(room == rm_level01){
 	}
 	alarm[1] = room_speed;
 }
+

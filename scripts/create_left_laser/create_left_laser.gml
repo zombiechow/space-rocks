@@ -11,5 +11,5 @@ var _laser = instance_create_layer(_x, _y, "Instances", obj_laser);
  _laser.direction = image_angle;
  _laser.speed = 8;
  _laser.image_angle = image_angle;
-
+ audio_play_sound(a_laser, 1, false) // call audio file
 }

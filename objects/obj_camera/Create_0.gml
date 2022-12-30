@@ -14,3 +14,5 @@ surface_resize(application_surface,view_width*window_scale,view_height*window_sc
 draw_set_font(fnt_gui_text);
 score = 0;
 lives = 3;
+
+randomize()

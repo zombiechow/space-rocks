@@ -4,6 +4,7 @@ function mouse_controls(){
 var _mouse_direction = point_direction(x, y, mouse_x, mouse_y);
 var _mthrust = mouse_check_button(mb_right)
 if (_mthrust){
+	//audio_play_sound(a_hero_thruster, 8, false)
 	motion_add(image_angle, acceleration);
 	image_angle = _mouse_direction;
 	image_index = _mthrust;
