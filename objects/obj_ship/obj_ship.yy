@@ -11,7 +11,10 @@
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_ship_parent",
+    "path": "objects/obj_ship_parent/obj_ship_parent.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -34,7 +37,10 @@
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"acceleration","varType":0,"value":".05","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"friction_amount","varType":0,"value":".01","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
   ],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"max_armor","path":"objects/obj_ship_parent/obj_ship_parent.yy",},"objectId":{"name":"obj_ship_parent","path":"objects/obj_ship_parent/obj_ship_parent.yy",},"value":"4",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"armor","path":"objects/obj_ship_parent/obj_ship_parent.yy",},"objectId":{"name":"obj_ship_parent","path":"objects/obj_ship_parent/obj_ship_parent.yy",},"value":"4",},
+  ],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",

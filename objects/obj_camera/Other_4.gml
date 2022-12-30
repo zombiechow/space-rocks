@@ -18,7 +18,7 @@ draw_set_font(fnt_gui_text);
 score = 0;
 lives = 3;
 
-randomize()
+randomize() // GM22 uses a seed for debugging, this function removes it
 
 //need to run for coordinates for the spawn script
 if (instance_exists(obj_ship))
@@ -33,6 +33,8 @@ if (instance_exists(obj_ship))
 	camera_set_view_pos(view, lerp(_cur_x, _x, _spd), lerp(_cur_y, _y, _spd));
 	
 }
+
+
 //for spawn script
 global.cameraX = camera_get_view_x(view);
 global.cameraY = camera_get_view_y(view);

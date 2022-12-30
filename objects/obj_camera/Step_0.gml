@@ -14,4 +14,12 @@ if (instance_exists(obj_ship))
 	var _spd = .1;
 	camera_set_view_pos(view, lerp(_cur_x, _x, _spd), lerp(_cur_y, _y, _spd));
 	
+
 }
+
+//paralax
+layer_x("bk_stars_close", global.cameraX * .25);
+layer_y("bk_stars_close", global.cameraY * .25);
+
+layer_x("bk_stars_far", global.cameraX * 1);
+layer_y("bk_stars_far", global.cameraY * 1);
