@@ -5,22 +5,26 @@ function keyboard_controls(){
 if (keyboard_check(ord("A"))){
 		image_angle += 5;
 		// render the fire object in the "Effect" layer of the room on top of the sprite instance
-		var _offset = random_range(-1, 1);
-		var _length = 10;
-		var _x = x + lengthdir_x(_length, image_angle - 12)  + _offset;
-		var _y = y + lengthdir_y(_length, image_angle - 12) + _offset;
-		instance_create_layer(_x, _y, "Effects",obj_populsion);
+		repeat(4){
+			var _offset = random_range(-1, 1);
+			var _length = 10;
+			var _x = x + lengthdir_x(_length, image_angle - 12)  + _offset;
+			var _y = y + lengthdir_y(_length, image_angle - 12) + _offset;
+			instance_create_layer(_x, _y, "Effects",obj_populsion);
+		}
 }
 
 if (keyboard_check(ord("D"))){
 		image_angle -= 5;
 		// render the fire object in the "Effect" layer of the room on top of the sprite instance
 		// Here we use the image_angle to keep with the sprite rotation, length and +/- to move away from the axis, offset makes it lively
-		var _offset = random_range(-1, 1);
-		var _length = 10;
-		var _x = x + lengthdir_x(_length, image_angle + 12)  + _offset;
-		var _y = y + lengthdir_y(_length, image_angle + 12) + _offset;
-		instance_create_layer(_x, _y, "Effects",obj_populsion);
+		repeat(4){
+			var _offset = random_range(-1, 1);
+			var _length = 10;
+			var _x = x + lengthdir_x(_length, image_angle + 12)  + _offset;
+			var _y = y + lengthdir_y(_length, image_angle + 12) + _offset;
+			instance_create_layer(_x, _y, "Effects",obj_populsion);
+		}
 }
 
 var _kthrust = keyboard_check(ord("W"))
@@ -34,11 +38,13 @@ if (_kthrust){
 			speed = max_speed;
 		}
 		// render the fire object in the "Effect" layer of the room on top of the sprite instance
-		var _offset = random_range(-2, 2);
-		var _length = -16;
-		var _x = x + lengthdir_x(_length, image_angle)  + _offset;
-		var _y = y + lengthdir_y(_length, image_angle) + _offset;
-		instance_create_layer(_x, _y, "Effects", obj_explosion_particle);
+		repeat(4){
+			var _offset = random_range(-2, 2);
+			var _length = -16;
+			var _x = x + lengthdir_x(_length, image_angle)  + _offset;
+			var _y = y + lengthdir_y(_length, image_angle) + _offset;
+			instance_create_layer(_x, _y, "Effects", obj_explosion_particle);
+		}
 } else {
 	friction = friction_amount;
 	image_index = 0
