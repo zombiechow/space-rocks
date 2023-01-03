@@ -19,7 +19,7 @@ if(room == rm_level01){
 		
 	}
 	
-	if(lives < 0){
+	if(global.lives < 0){
 		room_goto(rm_gameover);
 		
 	}

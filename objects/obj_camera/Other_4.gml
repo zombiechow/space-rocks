@@ -16,7 +16,7 @@ surface_resize(application_surface,view_width*window_scale,view_height*window_sc
 // testing on screen text
 draw_set_font(fnt_gui_text);
 score = 0;
-lives = 3;
+global.lives = 3;
 
 randomize() // GM22 uses a seed for debugging, this function removes it
 

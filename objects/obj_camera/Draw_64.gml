@@ -31,7 +31,7 @@ switch(room){
 	case rm_level01:
 	// You can write your code in this editor
 		draw_text(20, 20, "SCORE: "+string(score));
-		draw_text(20, 40, "LIVES: "+string(lives));
+		draw_text(20, 40, "global.lives: "+string(global.lives));
 		draw_text(20, 60, "ARMOR: "+string(obj_ship.armor));
 		//draw_text(20,60, "room_width: "+string(room_width));
 		//draw_text(20,80, "room_height: "+string(room_height));
