@@ -1,3 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-move_torwards_player();
+alarm[0] = fire_rate;
+
+
+
+
+

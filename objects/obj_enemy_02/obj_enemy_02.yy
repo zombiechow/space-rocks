@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_ship_parent",
-    "path": "objects/obj_ship_parent/obj_ship_parent.yy",
+    "name": "obj_enemy_ship",
+    "path": "objects/obj_enemy_ship/obj_enemy_ship.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -27,9 +27,18 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
-  "properties": [],
-  "overriddenProperties": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+  ],
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"attack_range","varType":1,"value":"320","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"fire_rate","varType":1,"value":"60","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
+  ],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"max_armor","path":"objects/obj_ship_parent/obj_ship_parent.yy",},"objectId":{"name":"obj_ship_parent","path":"objects/obj_ship_parent/obj_ship_parent.yy",},"value":"3",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"armor","path":"objects/obj_ship_parent/obj_ship_parent.yy",},"objectId":{"name":"obj_ship_parent","path":"objects/obj_ship_parent/obj_ship_parent.yy",},"value":"3",},
+  ],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",

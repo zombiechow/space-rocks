@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_ship_parent",
-    "path": "objects/obj_ship_parent/obj_ship_parent.yy",
+    "name": "obj_enemy_ship",
+    "path": "objects/obj_enemy_ship/obj_enemy_ship.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -30,8 +30,6 @@
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_ship","path":"objects/obj_ship/obj_ship.yy",},},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_asteroid","path":"objects/obj_asteroid/obj_asteroid.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],
